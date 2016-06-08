@@ -1,0 +1,5 @@
+<%= form_for :session, url: sessions_path do |f| %>
+  <p><%= f.label :username, "Enter a username" %></p>
+  <p><%= f.text_field :username %></p>
+  <p><%= f.submit "Start Chatting!" %></p>
+<% end %>

@@ -1,0 +1,12 @@
+
+<div class="chat">
+
+  <div class="chat-header">
+    Signed in as @<%= cookies.signed[:username] %>
+  </div>
+
+  <div id="messages"></div>
+
+  <%= text_field_tag :body, "", id: "chat-speak" %>
+
+</div>
